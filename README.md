@@ -1,13 +1,53 @@
-[Contato.html](https://github.com/user-attachments/files/30911098/Contato.html)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Mercado Livre</h1>
 
-# mercado-livre[MercadoLivre.html](https://github.com/user-attachments/files/30911099/MercadoLivre.html)<img width="738" height="414" alt="Supra" src="https://github.com/user-attachments/assets/704ed842-030f-485a-95e5-76fdf79d15be" />
-<img width="447" height="447" alt="SamsungS24Ultra" src="https://github.com/user-attachments/assets/ab864d92-3933-444f-94f7-23383076d290" />
-<img width="627" height="489" alt="Porsche" src="https://github.com/user-attachments/assets/df489fe7-a610-4a05-a127-8998283488b9" />
-<img width="447" height="447" alt="Notebook" src="https://github.com/user-attachments/assets/89b41741-7e62-4903-bfa4-57a9cc4b4dff" />
-<img width="738" height="414" alt="Mustang" src="https://github.com/user-attachments/assets/f8002265-239c-4d06-845d-f0163efce109" />
-<img width="800" height="534" alt="Móveis" src="https://github.com/user-attachments/assets/f35ffdaf-acaf-47ce-a0be-bd48ab5d9937" />
-<img width="386" height="518" alt="MotorolaEdge8Pro" src="https://github.com/user-attachments/assets/c733965e-8517-4316-84f9-c1027bc96a3b" />
-<img width="496" height="619" alt="iPhone15Pro" src="https://github.com/user-attachments/assets/abdd4dc1-aaa4-4967-8d0f-e84b21eec66c" />
-<img width="447" height="447" alt="GooglePixel8Pro" src="https://github.com/user-attachments/assets/63c590cc-3df3-4a11-8244-ab3dbd79754b" />
-<img width="549" height="364" alt="Ferrari" src="https://github.com/user-attachments/assets/ea8b7c93-62a2-4361-9840-7408d21f7243" />
-[Produto.html](https://github.com/user-attachments/files/30911100/Produto.html)
+    <a href="MercadoLivre.html">Home | </a>
+    
+    <a href="Produto.html">Produtos | </a>
+    
+    <a href="Contato.html">Contato</a>
+
+    <hr>
+
+    <h2>Página Inical</h2>
+
+    <p>
+        Lorem Ipsum é simplesmente um texto 
+        fictício da indústria tipográfica e de impressão
+        para que você possa realizar o teste do seu site.</p>
+
+        <hr>
+
+    <figure>
+        <img src="../IMAGENS/Notebook.png" alt="Notebook" width="200">
+        <figcaption>Notebook</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="../IMAGENS/Móveis.png" alt="Móveis" width="200">
+        <figcaption>Móveis</figcaption>
+    </figure>
+
+    <figure>
+        <img src="../IMAGENS/iPhone15Pro.png" alt="Celular" width="200">
+        <figcaption>Celular</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="../IMAGENS/Mustang.png" alt="Carros" width="200">
+        <figcaption>Carros</figcaption>
+    </figure>
+
+
+
+    
+</body>
+</html><img width="990" height="677" alt="Screenshot 2026-08-10 163415" src="https://github.com/user-attachments/assets/27f82907-a34e-4768-80a7-9c0a802a6cc2" />
