@@ -7,28 +7,28 @@ body {
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(34, 80, 59), rgb(30, 86, 104));
 }
 h4 {
-    color: #e0dfdc;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2 {
-    color: #e0dfdc;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a {
-    color: #f5f0f0;
+    color: rgb(245, 240, 240);
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 b {
-    color: #e0dfdc;
+    color: rgb(224, 223, 220);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 p {
-    color: #e0dfdc;
+    color: rgb(224, 223, 220);
     text-align:justify;
     font-family:cursive
 }
