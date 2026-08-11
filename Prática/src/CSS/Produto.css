@@ -1,5 +1,5 @@
 h1 {
-    color: #e0dfdc;
+    color: rgb(224, 223, 220);
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ b {
 }
 
 p {
-    color: rgb(224, 223, 220);
+    color: rgb(225, 225, 225);
     text-align:justify;
     font-family:cursive
 }
