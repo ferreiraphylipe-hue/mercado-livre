@@ -1,48 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="../../src/CSS/Contato.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../CSS/Contato.css">
+<title>Contato | Mercado Livre</title>
 </head>
 <body>
-    <h1>Mercado Livre</h1> <br>
-    
-    <a href="MercadoLivre.html">Home | </a>    
-    <a href="Produto.html">Produtos | </a>
-    <a href="Contato.html">Contato</a>
-    <hr>
+<header class="topo">
+  <div class="topo-conteudo">
+    <a class="logo" href="MercadoLivre.html">Mercado Livre</a>
+    <div class="busca"><input type="search" placeholder="Buscar produtos, marcas e muito mais..."><button>🔍</button></div>
+    <div class="atalhos"><span>Olá, usuário</span><span>🛒 Carrinho</span></div>
+  </div>
+  <nav class="menu"><a href="MercadoLivre.html">Início</a><a href="Produto.html">Produtos</a><a class="ativo" href="Contato.html">Contato</a></nav>
+</header>
 
-    <h2>Contato</h2>
+<main class="container">
+  <div class="cabecalho-pagina">
+    <span class="tag">ATENDIMENTO</span><h1>Entre em contato</h1>
+    <p>Encontre nossos canais de atendimento e fale com a gente.</p>
+  </div>
 
-    <a href="#email">Email</a>
-    <a href="#Inst">Instagram</a>
-    <a href="#Whats">WhatsApp</a>
+  <div class="contatos">
+    <a class="contato-card" href="#email"><img src="../IMAGENS/LogoEmail.png" alt="Email"><div><strong>Email</strong><span>Fale conosco por email</span></div></a>
+    <a class="contato-card" href="#Inst"><img src="../IMAGENS/LogoInstagram.png" alt="Instagram"><div><strong>Instagram</strong><span>Acompanhe nossas novidades</span></div></a>
+    <a class="contato-card" href="#Whats"><img src="../IMAGENS/LogoWhatsApp1.png" alt="WhatsApp"><div><strong>WhatsApp</strong><span>Entre em contato rapidamente</span></div></a>
+  </div>
 
-    <hr>
-
-    <h3 id="email"></h3> <img src="../../src/IMAGENS/LogoEmail.png" alt="Email" width="20"> Email </h3>
-    <p>fulanodetal@gmail.com
-    </p>
-
-    <h3 id="Inst"> <img src="../../src/IMAGENS/LogoInstagram.png" alt="Instagram" width="20"> Instagram</h3>
-    <p>
-        @fulanodetal
-    </p>
-
-    <h3 id="Whats"> <img src="../../src/IMAGENS/LogoWhatsApp1.png" alt="WhatsApp" width="20"> WhatsApp</h3>
-    <p>
-        (99) 99999-9999
-    </p>
-
-    <tfoot>
-        <tr>
-            <td>
-                <p>&copy; 2023 Mercado Livre. Todos os direitos reservados.</p>
-            </td>
-        </tr>
-    </tfoot>
-
+  <section class="painel-contato">
+    <div class="contato-linha" id="email"><img src="../IMAGENS/LogoEmail.png" alt="Email"><div><span>Email</span><strong>fulanodetal@gmail.com</strong></div></div>
+    <div class="contato-linha" id="Inst"><img src="../IMAGENS/LogoInstagram.png" alt="Instagram"><div><span>Instagram</span><strong>@fulanodetal</strong></div></div>
+    <div class="contato-linha" id="Whats"><img src="../IMAGENS/LogoWhatsApp1.png" alt="WhatsApp"><div><span>WhatsApp</span><strong>(99) 99999-9999</strong></div></div>
+  </section>
+</main>
+<footer><p>&copy; 2026 Mercado Livre — Projeto acadêmico.</p></footer>
 </body>
 </html>
