@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="../../src/CSS/MercadoLivre.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Livre</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../CSS/MercadoLivre.css">
+<title>Mercado Livre</title>
 </head>
 <body>
-    
-    <h1>Mercado Livre</h1>
-
-    <a href="MercadoLivre.html">Home | </a>
-    
-    <a href="Produto.html">Produtos | </a>
-    
+<header class="topo">
+  <div class="topo-conteudo">
+    <a class="logo" href="MercadoLivre.html">Mercado Livre</a>
+    <div class="busca"><input type="search" placeholder="Buscar produtos, marcas e muito mais..."><button>🔍</button></div>
+    <div class="atalhos"><span>Olá, usuário</span><span>🛒 Carrinho</span></div>
+  </div>
+  <nav class="menu">
+    <a class="ativo" href="MercadoLivre.html">Início</a>
+    <a href="Produto.html">Produtos</a>
     <a href="Contato.html">Contato</a>
+  </nav>
+</header>
 
-    <hr>
+<main class="container">
+  <section class="hero">
+    <div>
+      <span class="tag">MERCADO LIVRE</span>
+      <h1>Encontre o que você procura.</h1>
+      <p>Explore produtos de tecnologia, veículos, casa e eletrodomésticos em um só lugar.</p>
+      <a class="botao" href="Produto.html">Ver produtos</a>
+    </div>
+    <div class="hero-icon">🛍️</div>
+  </section>
 
-    <h2>Página Inical</h2>
+  <section>
+    <div class="titulo-secao"><h2>Categorias</h2><a href="Produto.html">Ver tudo →</a></div>
+    <div class="categorias">
+      <a class="categoria" href="Produto.html#vei"><img src="../IMAGENS/Mustang.png" alt="Veículos"><strong>Veículos</strong><span>Carros e esportivos</span></a>
+      <a class="categoria" href="Produto.html#tec"><img src="../IMAGENS/iPhone15Pro.png" alt="Tecnologia"><strong>Tecnologia</strong><span>Celulares e eletrônicos</span></a>
+      <a class="categoria" href="Produto.html#home"><img src="../IMAGENS/Móveis.png" alt="Casa e Imóveis"><strong>Casa e Imóveis</strong><span>Móveis e decoração</span></a>
+      <a class="categoria" href="Produto.html#Eletroc"><img src="../IMAGENS/Geladeira.png" alt="Eletrodomésticos"><strong>Eletrodomésticos</strong><span>Para facilitar sua rotina</span></a>
+    </div>
+  </section>
 
-    <p>
-        
-        <b>Bem-vindo ao Mercado Livre, a plataforma líder em comércio eletrônico na América Latina. </b> <br>
-        Aqui você encontra uma ampla variedade de produtos, desde eletrônicos e moda até itens 
-        para casa e muito mais. Explore nossas categorias e descubra ofertas incríveis todos os 
-        dias.
-        <hr>
-
-    <figure>
-        <img src="../IMAGENS/Notebook.png" alt="Notebook" width="200">
-        <figcaption>Notebook</figcaption>
-    </figure>
-    
-    <figure>
-        <img src="../IMAGENS/Móveis.png" alt="Móveis" width="200">
-        <figcaption>Móveis</figcaption>
-    </figure>
-
-    <figure>
-        <img src="../IMAGENS/iPhone15Pro.png" alt="Celular" width="200">
-        <figcaption>Celular</figcaption>
-    </figure>
-    
-    <figure>
-        <img src="../IMAGENS/Mustang.png" alt="Carros" width="200">
-        <figcaption>Carros</figcaption>
-    </figure>
-
-
-
-    
+  <section class="beneficios">
+    <div><b>🚚 Entrega</b><span>Produtos selecionados</span></div>
+    <div><b>🔒 Compra segura</b><span>Mais tranquilidade para comprar</span></div>
+    <div><b>💳 Pagamento</b><span>Opções para facilitar</span></div>
+  </section>
+</main>
+<footer><p>&copy; 2026 Mercado Livre — Projeto acadêmico.</p></footer>
 </body>
 </html>
